@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <meta name="viewp
+        ort" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                margin: 0px;
+            }
+            .main{
+                background-color: #d6d7dc59;
+            }
+
+            .left{
+                width:200px;
+                height: 100%;
+                position: fixed;
+                background-color: #494646;
+            }
+            .left a{
+                display: block;
+                text-decoration: none;
+                color: #fff;
+                padding: 16px;
+                font-size: 20px;
+            } 
+            .left a.active {
+                 background-color: #04AA6D;
+                color: white;
+            }
+
+            .left a:hover:not(.active) {
+                background-color: #a9a2a2;
+                color: white;
+            }
+-
+            p h2{
+                font-size: 20px;
+            }
+
+            .right{
+                margin-left: 200px;
+                padding: 10px;
+            }
+            @media screen and (max-width: 700px) {
+                .left {
+                    width: 100%;
+                    height: auto;
+                }
+                .left a {
+                    float: left;    
+                }
+                .right {
+                    margin-left: 0;
+                }
+            }
+
+            @media screen and (max-width: 400px) {
+                .left a {
+                    text-align: center;
+                    float: none;
+                }
+            }
+      </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="left">
+                <a class="active" href="#">Home</a>
+                <a href="#">News</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+            </div>
+            <div class="right">
+                <h1>Responsive Sidebar Example</h1>
+                <p>
+                    <h2>Resize the browser window to see the effect.</h2>
+
+                    This example use media queries to transform the sidebar to a top navigation bar when the screen size is 700px or less.
+
+                    We have also added a media query for screens that are 400px or less, which will vertically stack and center the navigation links.
+                    <br>
+                    <h2>Resize the browser window to see the effect.</h2>
+                    <br>
+                    <br>
+                    <h2>Resize the browser window to see the effect.</h2>
+
+                    This example use media queries to transform the sidebar to a top navigation bar when the screen size is 700px or less.
+
+                    We have also added a media query for screens that are 400px or less, which will vertically stack and center the navigation links.
+                    <br>
+                    <h2>Resize the browser window to see the effect.</h2>
+                    <br>
+                    <br>
+                    This example use media queries to transform the sidebar to a top navigation bar when the screen size is 700px or less.
+
+                    We have also added a media query for screens that are 400px or less, which will vertically stack and center the navigation links.
+                    This example use media queries to transform the sidebar to a top navigation bar when the screen size is 700px or less.
+                    <br>
+                    <h2>Resize the browser window to see the effect.</h2>
+                    <br>
+                    <br>
+                    We have also added a media query for screens that are 400px or less, which will vertically stack and center the navigation links.
+                    This example use media queries to transform the sidebar to a top navigation bar when the screen size is 700px or less.
+
+                    We have also added a media query for screens that are 400px or less, which will vertically stack and center the navigation links.
+                    <br>
+
+                    <h2>Resize the browser window to see the effect.</h2>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

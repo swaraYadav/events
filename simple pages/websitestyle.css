@@ -1,0 +1,268 @@
+
+.home a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    padding:15px;
+  }
+  
+  .home a:hover{
+    background-color: black;
+    color:white;
+  }
+  
+  .home{
+    padding: 20px;
+  }
+  
+  .img a img{
+    width:100px;
+    height:70px;
+  }
+  
+  .main{
+    display: flex;
+      justify-content: space-between;
+  }
+  
+  .leftmenu{
+    display: inline-flex;
+  }
+  
+  .btn button{
+    padding:10px;
+    margin:5px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .btn{
+    padding-top: 15px;
+  }
+  .btn .black{
+    background-color: black;
+    color: white;
+
+  }
+  .btn .pink{
+    background-color:#ffc0c7;
+    color: black;
+    border:none;
+  }
+  .btn .yellow{
+    background-color: #fff4a3;
+    color: black;
+    border: none;
+  }
+
+  .blue{
+    background-color: rgb(4, 170, 109);
+    color:white;
+    border:none;
+  }
+
+  .link{
+    background-color: #282a35;
+    padding: 15px;
+  }
+
+  .link a{
+    text-decoration: none;
+    color:#fff;
+    padding:20px;
+  }
+
+  .link img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .link a:hover{
+    background-color: black;
+  }
+
+  .page{
+    width:100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top:150px;
+  }
+
+  .page h1{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .page p{
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .page input{
+    width:450px;
+    height: 40px;
+  }
+
+  .tutorial{
+    width:100%;
+    height: 500px;
+    background-color:rgb(209, 220, 209);
+    color:black;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
+  .cssTutorial{
+    background-color: #FFF4A3;
+  }
+
+  .jstutorial{
+    background-color: #282A35;
+  }
+
+  .jstutorial h1{
+    color:white;
+  }
+
+  .jstutorial p{
+  color: #fff;
+
+  }
+
+  .html{
+    width:27%;
+    height: auto;
+    padding-left:200px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .html h1{
+    font-size: 70px;
+    font-style: inherit;
+  }
+
+  .html p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1px;
+    }
+
+  .html button{
+    border-radius: 18px;
+    font-size: 13px;
+    font-style: normal;
+    cursor: pointer;
+  }
+
+  .html .green{
+    background-color:#04AA6D;
+    color: white;
+    border:none;
+    padding:10px;
+    width:150px;
+    margin-bottom: 10px;
+  }
+
+  .html .yellow{
+    background-color:#FFF4A3;
+    color: black;
+    border:none;
+    padding:10px;
+    width:150px;
+    margin-bottom: 10px;
+
+  }
+
+  .html .black{
+    background-color:#282A35;
+    color:white;
+    border:none;
+    padding:10px;
+    width:150px;
+    margin-bottom: 10px;
+  
+  }
+
+  .html .pink{
+    background-color:#FFC0C7;
+    color:black;
+    border:none;
+    padding:10px;
+    width:150px;
+    margin-bottom: 10px;
+  }
+
+  .html .white{
+    background-color: #fff;
+    color:black;
+  }
+
+  .htmlexample{
+    width: 400px;
+    height: 350px;
+    border: 1px solid gray;
+    margin-top: 100px;
+    background-color: #fff;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: none;
+  }
+
+  .htmlexample h1{
+    font-size: 25px;
+    margin-left: 15px;
+    color:black;
+  }
+
+  .exptwo{
+    border:1px solid black;
+    background-color: black;
+    width:370px;
+    height:200px;
+    margin:15px;
+  }
+
+  .htmlexample button{
+    padding: 10px;
+    border-radius: 13px;
+    background-color:#04AA6D;
+    border: none;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  .pythontutorial{
+    background-color: #F3ECEA;
+  }
+
+  .pythontutorial h1{
+    color:black;
+  }
+
+  .pythontutorial p{
+    color:black;
+  }
+
+  .pythontutorial .grey{
+    background-color: #282A35;
+  }
+
+  .sqltutorial{
+    background-color: #96D4D4;
+  }
+  
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,46 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>format</h1>
+        <p id="demo"></p>
+    <script>
+          fetch('http://localhost:3007/getjs') 
+            .then(data => {
+                return data.json();
+            })
+            .then(response => {
+                console.log(response);
+
+                var x = "<table border='1/1'>";
+                    
+                    x+="<th> Sr. No </th>";
+                    x+="<th> Name </th>";
+                    x+="<th> Standard </th>";
+                    response.studentList.forEach((element)=> {
+                        x+="<tr>";
+                    x+="<td>"+element.sr+"</td>";
+                    x+="<td>"+element.name+"</td>";
+                    x+="<td>"+element.std+"</td>";
+                    
+                    x+="</tr>";
+                  }); 
+                
+                // for (var i = 0; i < response.studentList.length; i++) {
+                //     x+="<tr>";
+                //     x+="<td>"+response.studentList[i].sr+"</td>";
+                //     x+="<td>"+response.studentList[i].name+"</td>";
+                //     x+="<td>"+response.studentList[i].std+"</td>";
+                    
+                //     x+="</tr>";
+
+                // }
+                x+="</table>";
+                document.getElementById("demo").innerHTML = x;
+            
+
+            });
+        </script>
+    </body>
+</html>

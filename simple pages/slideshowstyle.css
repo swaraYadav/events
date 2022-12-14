@@ -1,0 +1,52 @@
+
+.myslide{
+    width:500px;
+    height: 400px;
+    position: absolute;
+}
+
+.numtext{
+    position: absolute;
+    top:4px;
+    left:5px;
+    color:#fff;
+}
+
+.text{
+    top:45%;
+    left:40%;
+    position: absolute;
+    color:white;
+    font-size: 20px;
+}
+
+.prev, .next{
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  color: white;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  padding: 15px;
+}
+
+.container{
+    position: relative;
+}
+
+.nextPreBtn{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:150px;
+    width:500px;
+}
+
+.prev:hover{
+    background-color: black;
+}
+
+.next:hover{
+    background-color: black;
+}
